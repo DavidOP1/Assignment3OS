@@ -1,4 +1,8 @@
 # Assignment3OS
+David Ehevich
+
+Liel ZIlberman 
+
 Assignment 3 in operating systems.
 
 serverNew.c and clientNew.c are the new programs with the required changes , using pthreads instead of fork to handle multiple clients.
