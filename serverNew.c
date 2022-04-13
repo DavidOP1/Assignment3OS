@@ -42,7 +42,7 @@ void *get_in_addr(struct sockaddr *sa)
 void * sendMessage(void * sock){
     if (send(*(int *)sock, "Hello, world!", 13, 0)== -1)
         perror("send"); 
-    sleep(5);
+    sleep(1);
     close((*(int *)sock)); 
 }
 int main(void)
